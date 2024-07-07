@@ -1,7 +1,12 @@
+point = int(input("得点を入力してください:"))
 
-age = input("年齢を入力してください:")
-
-if age >= 18:
-    print("あなたは成年です")
+if point >= 90:
+    print("成績:A")
+elif point >= 80:
+    print("成績:B")
+elif point >= 70:
+    print("成績:C")
+elif point >= 60:
+    print("成績:D")
 else:
-    print("あなたは未成年です")
+    print("成績:F")
