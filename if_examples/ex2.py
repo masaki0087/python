@@ -1,12 +1,8 @@
-point = int(input("得点を入力してください:"))
+n = int(input("整数値を入力してください:"))
 
-if point >= 90:
-    print("成績:A")
-elif point >= 80:
-    print("成績:B")
-elif point >= 70:
-    print("成績:C")
-elif point >= 60:
-    print("成績:D")
+if n > 0:
+    print(f"{n}の値は正の数です")
+elif n == 0:
+    print(f"{n}の値は0です")
 else:
-    print("成績:F")
+    print(f"{n}の値は負の数です")
