@@ -4,4 +4,4 @@ if ans != "":
 else:
     sports = "nothing"
 
-print("your awnser is " + sports + ".")
+print("your answer is " + sports + ".")
