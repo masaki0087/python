@@ -1,12 +1,14 @@
-point = int(input("得点を入力してください:"))
+a = int(input("aを入力してください:"))
+b = int(input("bを入力してください:"))
+c = int(input("cを入力してください:"))
 
-if point >= 90:
-    print("成績:A")
-elif point >= 80:
-    print("成績:B")
-elif point >= 70:
-    print("成績:C")
-elif point >= 60:
-    print("成績:D")
+if a < b < c:
+    print("bはaより大きく、cはbより大きい値です")
+elif b < c < a:
+    print("cはbより大きく、aはcより大きい値です")
+elif c < a < b:
+    print("aはcより大きく、bはaより大きい値です")
+elif a == b == c:
+    print("a,b,c全て等しい値です")
 else:
-    print("成績:F")
+    print("いずれの条件も満たしません")
