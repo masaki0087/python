@@ -5,7 +5,7 @@ def for1():
         print(i * 2, name)
 
 def for2():
-    numbers = [i ** 2 for i in range(1,11)]
+    numbers = [i % 4 for i in range(1,11)]
     print(numbers)
 
 for2()
